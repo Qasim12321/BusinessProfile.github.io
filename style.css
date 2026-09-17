@@ -180,6 +180,9 @@ button {
     font-weight: 600;
 
     transition: 0.3s ease;
+
+    margin-left: 25px;
+    margin-right: -35px;
 }
 
 .nav-button:hover {
