@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aurelia — Fine Dining Restaurant</title>
+
+    <meta
+        name="description"
+        content="Aurelia is a refined dining experience featuring seasonal cuisine, elegant interiors and unforgettable evenings."
+    >
+
+    <meta
+        name="keywords"
+        content="Aurelia restaurant, fine dining, luxury restaurant, modern restaurant, dining"
+    >
+
+    <meta name="theme-color" content="#17130f">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            AURELIA
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#story">Our Story</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+
+            <a href="#reservation" class="nav-cta">
+                Reserve Table
+            </a>
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-image"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content reveal">
+
+        <span class="eyebrow">
+            EST. 2018 · CONTEMPORARY DINING
+        </span>
+
+        <h1>
+            Taste the
+            <em>Extraordinary.</em>
+        </h1>
+
+        <p>
+            Seasonal ingredients, thoughtful cooking and an atmosphere
+            designed for memorable evenings.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#menu" class="btn btn-light">
+                Explore Menu
+            </a>
+
+            <a href="#reservation" class="btn btn-outline">
+                Reserve a Table
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        <span></span>
+        Scroll to explore
+    </div>
+
+</section>
+
+
+<!-- INTRO -->
+<section class="intro section">
+
+    <div class="container intro-grid">
+
+        <div class="intro-label reveal">
+            <span>01</span>
+            <p>THE AURELIA EXPERIENCE</p>
+        </div>
+
+        <div class="intro-content reveal">
+
+            <h2>
+                Crafted with passion.
+                <span>Served with purpose.</span>
+            </h2>
+
+            <p>
+                Aurelia brings together seasonal ingredients, refined
+                techniques and a warm atmosphere to create dining
+                experiences worth remembering.
+            </p>
+
+            <a href="#story" class="text-link">
+                Discover our story →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MENU -->
+<section class="menu-section section" id="menu">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <div>
+                <span class="eyebrow dark">
+                    FROM OUR KITCHEN
+                </span>
+
+                <h2>
+                    Signature
+                    <em>Menu</em>
+                </h2>
+            </div>
+
+            <p>
+                A carefully selected menu inspired by seasonal
+                ingredients and modern European cooking.
+            </p>
+
+        </div>
+
+
+        <div class="menu-grid">
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image image-one"></div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Truffle Risotto</h3>
+                        <span>$28</span>
+                    </div>
+
+                    <p>
+                        Arborio rice, wild mushrooms, parmesan
+                        and black truffle.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image image-two"></div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Herb-Crusted Salmon</h3>
+                        <span>$32</span>
+                    </div>
+
+                    <p>
+                        Roasted salmon, garden herbs, seasonal
+                        vegetables and lemon butter.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image image-three"></div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Prime Rib</h3>
+                        <span>$42</span>
+                    </div>
+
+                    <p>
+                        Slow-roasted beef, roasted vegetables
+                        and rosemary jus.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image image-four"></div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Chocolate Tart</h3>
+                        <span>$14</span>
+                    </div>
+
+                    <p>
+                        Dark chocolate ganache, sea salt and
+                        vanilla cream.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- STORY -->
+<section class="story section" id="story">
+
+    <div class="container story-grid">
+
+        <div class="story-image reveal"></div>
+
+        <div class="story-content reveal">
+
+            <span class="eyebrow dark">
+                OUR STORY
+            </span>
+
+            <h2>
+                Where food becomes
+                <em>an experience.</em>
+            </h2>
+
+            <p>
+                Aurelia was created around a simple idea:
+                exceptional food deserves an exceptional setting.
+            </p>
+
+            <p>
+                From our carefully selected ingredients to the
+                final detail on every plate, everything is designed
+                with intention.
+            </p>
+
+            <div class="story-signature">
+                AURELIA
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+<section class="experience section" id="experience">
+
+    <div class="container">
+
+        <div class="section-heading centered reveal">
+
+            <span class="eyebrow dark">
+                MORE THAN DINNER
+            </span>
+
+            <h2>
+                The Aurelia
+                <em>Experience</em>
+            </h2>
+
+        </div>
+
+
+        <div class="experience-grid">
+
+            <article class="experience-card reveal">
+                <span>01</span>
+                <h3>Seasonal Cuisine</h3>
+                <p>
+                    Ingredients selected around the best
+                    flavors of every season.
+                </p>
+            </article>
+
+            <article class="experience-card reveal">
+                <span>02</span>
+                <h3>Elegant Atmosphere</h3>
+                <p>
+                    A carefully designed environment made
+                    for relaxed evenings.
+                </p>
+            </article>
+
+            <article class="experience-card reveal">
+                <span>03</span>
+                <h3>Thoughtful Service</h3>
+                <p>
+                    Every detail is handled with care from
+                    arrival to the final course.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RESERVATION -->
+<section class="reservation section" id="reservation">
+
+    <div class="container reservation-box">
+
+        <div class="reservation-content reveal">
+
+            <span class="eyebrow">
+                YOUR TABLE AWAITS
+            </span>
+
+            <h2>
+                Make an
+                <em>evening of it.</em>
+            </h2>
+
+            <p>
+                Reserve your table and experience Aurelia.
+            </p>
+
+        </div>
+
+
+        <form class="reservation-form reveal" id="reservationForm">
+
+            <div class="form-row">
+
+                <input
+                    type="text"
+                    placeholder="Your name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Email address"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-row">
+
+                <input
+                    type="date"
+                    required
+                >
+
+                <select required>
+                    <option value="">Guests</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5 Guests</option>
+                    <option>6+ Guests</option>
+                </select>
+
+            </div>
+
+
+            <button type="submit" class="btn btn-light">
+                Request Reservation
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer id="contact">
+
+    <div class="container footer-grid">
+
+        <div>
+            <div class="footer-logo">
+                AURELIA
+            </div>
+
+            <p>
+                Contemporary dining,
+                thoughtfully prepared.
+            </p>
+        </div>
+
+
+        <div>
+            <h4>Visit</h4>
+
+            <p>
+                24 Aurelia Avenue<br>
+                New York, NY
+            </p>
+        </div>
+
+
+        <div>
+            <h4>Contact</h4>
+
+            <p>
+                hello@aurelia.com<br>
+                +1 212 555 0198
+            </p>
+        </div>
+
+
+        <div>
+            <h4>Hours</h4>
+
+            <p>
+                Tue — Sun<br>
+                5:30 PM — 11:00 PM
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom container">
+
+        <span>
+            © 2026 Aurelia Restaurant
+        </span>
+
+        <span>
+            Crafted with intention.
+        </span>
+
+    </div>
+
+</footer>
+
+
+<div class="toast" id="toast">
+    Thank you. Your request has been received.
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
