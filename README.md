@@ -1,1 +1,1 @@
-#brightline10.github.io
+brightline10.github.io
